@@ -4,19 +4,25 @@
 .main{
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
+    margin-left: 200px;
 }
 .first{
     width: 400px;
-    height: 600px;
-    border: solid;
+    height: 700px;
+    box-shadow: 4px 4px 4px 4px rgb(104, 104, 104);
+    background-color: rgb(255, 255, 255);
     background-image: url("./images/bg-header-desktop.png");
     background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 80px;
 }
 .second{
     width: 400px;
     height: 700px;
-    border: solid;
-   
+    margin-left: 300px;
+    box-shadow: 6px 6px 6px 6px burlywood;
+    background-color: white;
 }
 .rtr{
     background-image: url("./images/image-computer.png");
@@ -29,7 +35,7 @@
 }
 .logo{
     width: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 45%;
 }
 .computer{
@@ -64,6 +70,7 @@
     margin-left: 70px;
     margin-top: 10px;
     border: 0px;
+    box-shadow: 4px 4px 4px rgb(109, 109, 109);
 }
 .mac{
     font-size: 10px;
@@ -73,11 +80,12 @@
     color: white;
     background-color: hsl(233, 100%, 69%);
     border: 0px;
+    box-shadow: 4px 4px 4px rgb(109, 109, 109);
 }
 .keep{
     text-align: center;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 50px;
     color: hsl(210, 10%, 33%);   
 }
 .inst{
@@ -90,7 +98,7 @@
 .flex{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .computer2{
     width: 220px;
@@ -112,11 +120,27 @@
     font-size: 15px;
     color: hsl(210, 10%, 33%);
     text-align: center;
+    margin-top: 20px;
+}
+.access2{
+    font-size: 15px;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin-top: 0px;
 }
 .whether{
     font-size: 5px;
     color: hsl(201, 11%, 66%);
     text-align: center;
+}
+.three2{
+    background-image: url("./images/image-devices.png");
+    width: 300px;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    margin-top: 20px;
 }
 .three{
     background-image: url("./images/image-devices.png");
@@ -191,4 +215,52 @@
 }
 .design{
     margin-top: 40px;
+}
+.free{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.and{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.re{
+    margin-top: 7px;
+}
+.load{
+    margin-top: 10px;
+}
+.conus{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding-left: 20px;
+    background-color: hsla(240, 1%, 62%, 0.37);
+    height: 40px;
+    padding-top: 10px;
+}
+.policy{
+    margin-left: 20px;
+}
+.install{
+    margin-left: 20px;
+    align-items: normal;
+}
+.last{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.facebook{
+    width: 12px;
+}
+.twitter{
+    width: 12px;
+    margin-left: 10px;
+}
+.instagram{
+    width: 12px;
+    margin-left: 10px;
 }
